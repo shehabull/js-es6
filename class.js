@@ -1,6 +1,6 @@
 class Car {
   constructor(name) {
-    this.brand = name;
+    this.brand = name; // propertise
   }
 
   //method in a class
@@ -12,12 +12,12 @@ class Car {
 // inheritance
 
 class Model extends Car {
-  constructor(name, mod) { 
+  constructor(name, mod) {
     super(name);
     this.model = mod;
   }
   show() {
-    return this.present() + ", " +"it is a "+  this.model;
+    return this.present() + ", " + "it is a " + this.model;
   }
 }
 

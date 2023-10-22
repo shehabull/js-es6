@@ -17,11 +17,9 @@
 // testScope();
 // console.log(x);
 
-// conclusion var is a function scope, not belongs block scope. 
-
+// conclusion var is a function scope, not belongs block scope.
 
 // * Example for let
-
 
 // let x = 5.6; // belongs global scope
 
@@ -40,9 +38,7 @@
 // testScope();
 //  console.log(x);
 
-// conclusion let is a block scope, 
-
-
+// conclusion let is a block scope,
 
 // * Example for const
 
@@ -63,6 +59,6 @@ if (10 == 10) {
 //const x = 50; //never assigned
 
 testScope();
- console.log(x);
+console.log(x);
 
 // conclusion const is a block scope, never reasign but can change the element of array and object;
